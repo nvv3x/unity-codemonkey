@@ -14,7 +14,7 @@ public class SelectedCounterVisual : MonoBehaviour
     private void Player_OnSelectedCounterChanged(object sender, Player.OnSelectedCounterChangedEventArgs e) {
         if (e.selectedCounter == clearCounter) {
             Show();
-            print("Why so serious");
+            print("Showed");
         } else {
             Hide();
         }
